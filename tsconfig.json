@@ -1,0 +1,81 @@
+{
+    "compilerOptions": {
+
+
+        "target": "ES2016",
+        "lib": [
+            "esNext",
+            "es2022",
+            "es2016"
+        ],
+
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        "moduleDetection": "auto",
+
+        "module": "CommonJS",
+        "rootDir": "./src/",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "typeRoots": [
+            "mongodb",
+            "express"
+        ],
+        "allowUmdGlobalAccess": true,
+
+        "resolveJsonModule": true,
+
+
+        "allowJs": false,
+        "checkJs": false,
+
+        "outDir": "./dist/",
+        "removeComments": true,
+        "noEmit": false,
+        "importHelpers": false,
+        "ignoreDeprecations":  "5.0",
+        "noImplicitUseStrict": true,
+
+        "downlevelIteration": true,
+        "sourceRoot": "./src/",
+
+        "inlineSourceMap": true,
+        "inlineSources": true,
+
+        "noEmitOnError": false,
+        "preserveConstEnums": true,
+
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "preserveSymlinks": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "alwaysStrict": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "allowUnusedLabels": true,
+        "allowUnreachableCode": true,
+
+        "skipDefaultLibCheck": false,
+        "skipLibCheck": false
+    },
+    "exclude": [
+        "./tsconfig.json",
+        "./dist/**/*",
+    ]
+}

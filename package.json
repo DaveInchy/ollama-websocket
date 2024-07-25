@@ -1,0 +1,33 @@
+{
+  "name": "roblox-npc-server",
+  "version": "1.0.0",
+  "description": "SocketIO Endpoint Proxy Server for Ollama's local LLM APIs",
+  "main": "dist/index.ts",
+  "scripts": {
+    "setup": "npm install --save --include=dev",
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -p ./tsconfig.json --watch",
+    "api": "nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.12",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2",
+    "tslint": "^5.20.1",
+    "typescript": "^5.5.4"
+  }
+}
