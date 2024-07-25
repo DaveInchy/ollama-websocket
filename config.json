@@ -22,18 +22,6 @@
                 "Content-Type": "application/json",
                 "Authorization": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIGlu9cbCIXH1E1VTgxikrr1uByx3qyrvAfbDvggmhTQ"
             }
-        },
-        "chatgpt-api": {
-            "pingURL": "http://example.com/",
-            "useSecureConnection": true,
-            "port": 80,
-            "host": "api.openai.com",
-            "protocol": "https",
-            "path": "/v1/chat/completion",
-            "headers": {
-                "Content-Type": "application/json",
-                "Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-            }
         }
     }
 }
